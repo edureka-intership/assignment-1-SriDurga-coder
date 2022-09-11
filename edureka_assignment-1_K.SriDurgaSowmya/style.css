@@ -1,0 +1,336 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    background:rgb(20, 20, 20);
+    display:block;
+    justify-content:center;
+    width:auto;
+    height:auto;
+    max-width:1336px;
+    min-width:1200px;
+}
+header{
+    position: sticky;
+    top: 0;
+    width:100%;
+    height:60px;
+    background:blue;
+    z-index:3;
+}
+.head{
+    position:relative;
+    font-size:30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    width:30%;
+    float:left;
+    margin-left:1em;
+    margin-top:1%;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+}
+.head h1{
+    position: relative;
+    bottom:5px !important;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size:25px;
+}
+.ex{
+    font-size: 30px !important;
+    position: relative;
+    top:2px;
+    bottom:5px !important;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    padding-left: 1%;
+    padding-right: 1%;
+    background:white;
+    border-radius: 50%;
+    color:red;
+    font-size: 100%;
+    text-align:center;
+}
+.links{
+    position:relative;
+    bottom:5px;
+    float:left;
+    left:52%;
+    margin-top:1%;
+    text-decoration: none;
+}
+.links img{
+    width:35px;
+    height:35px;
+    margin-left:15px;
+    font-size:30px;
+}
+.search{
+    position:relative;
+    background:url(https://i.ibb.co/M2q5VsQ/bg3.jpg) no-repeat;
+    background-size:cover;
+    background-position-y: 55%;
+    width:100%;
+    height:500px;
+}
+.darkness{
+    position:relative;
+    width:100%;
+    height:500px;
+    background:rgb(0, 0, 0,0.3);
+}
+.darkness:hover{
+    background:none;
+}
+.logo{
+    position:absolute;
+    top: 28%;
+    left: 42%;
+    height: 160px;
+    width: 160px;
+    background:rgba(255, 253, 253, 0.9);
+    border-radius: 50%;
+}
+.logo>span{
+    position:absolute;
+    font-size: 77px;
+    margin-top: 39px;
+    margin-left: 50px;
+    color: rgb(255 0 0);
+}
+.downMenue {
+    position: relative;
+    width: 61%;
+    top: 62%;
+    left: 23%;
+}
+select{
+    width: 41%;
+    height:55px;
+    font-size:15px;
+    color:rgb(105, 105, 105);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    border:1px solid rgb(105, 105, 105);
+    border-radius: 0.8rem 0% 0% 0.8rem;
+}
+.downMenue>select:nth-child(2){
+    width: 55%;
+    height:55px;
+    margin-left:0%;
+    border-radius: 0% 0.8rem 0.8rem 0%;
+}
+.sec2{
+    display:block;
+    width:100%;
+    height:400px;
+    display:flex;
+    align-items: flex-start;
+
+}
+.cardlink{
+    position: relative;
+    top:20%;
+    width:22%;
+    height:300px;
+    margin-left:2%;
+    border-radius: 10%;
+    text-decoration: None;
+    box-shadow: 1px 4px 9px rgba(255, 255, 255, 0.5);
+}
+.cardlink:hover{
+    width:24%;
+    height:320px;
+    text-align: center;
+    box-shadow: 1px 3px 8px rgba(255, 255, 255, 0.5);
+    color:black;
+}
+.cardpic{
+    position: relative;
+    top:0%;
+    width:100%;
+    height:200px;
+    background:url(https://i.ibb.co/ZMbTFh5/Burgerrr.jpg) no-repeat;
+    background-size:cover;
+    background-position-y: 69%;
+    border-radius: 10% 10% 0% 0%;
+
+}
+.cardbg{
+    position: relative;
+    top:0%;
+    width:100%;
+}
+.carddetail {
+     display:block;
+    position: relative;
+    width:100%;
+    height:100px;
+    border-radius:0% 0% 17% 17%;
+    color:rgb(255, 255, 255);
+    text-align: center;
+
+}
+.carddetail>span{
+    position: relative;
+    top:30%;
+    font-size:1.5em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color:rgb(255, 255, 255);
+}
+.two{
+    background:url(https://i.ibb.co/Vgm7D0b/restaurant.jpg) no-repeat;
+    background-size: cover;
+    background-position-y:17%;
+}
+.three{
+    background:url(https://i.ibb.co/c6n44rt/devpro.jpg) no-repeat;
+    background-size: cover;
+    background-position-y:39%;
+}
+.four{
+    background:url(https://i.ibb.co/1KxYzJt/newlyopened.jpg) no-repeat;
+    background-size: cover;
+    background-position-y:40%;
+}
+.sec3{
+    position:relative;
+    top:50px;
+    width:100%;
+    height:600px;
+}
+.sec3>h1,h2{
+    position:relative;
+    display:block;
+
+}
+.sec3head{
+    display:block;
+    position:relative;
+    top:0%;
+    left:3%;
+    width:80%;
+    color:white;
+}
+.sec3head h1{
+    font-size:30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+
+}
+.sec3head h2{
+    font-size:20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.collink{
+    position: absolute;
+    top:20%;
+    left: 2.5%;
+    width:22%;
+    height:350px;
+    text-decoration: None;
+    background:url(https://i.ibb.co/4JZk52D/chai.jpg) no-repeat;
+    background-position-y:40%;
+    background-size: cover;
+    box-shadow: 1px 4px 9px rgba(255, 255, 255, 0.5);
+    border-radius: 0.8em;
+}
+.collink:hover{
+    width:23%;
+    height:360px;
+    text-align:center;
+    box-shadow: 0px 2px 6px rgba(255, 255, 255, 0.5);
+}
+.colpic:hover{
+    background:rgb(0,0, 0, 0);
+}
+.colpic{
+    position: relative;
+    width:100%;
+    height:350px;
+    text-align:left;
+    color:white;
+    text-decoration: None;
+    border-radius: 0.8em;
+    background:rgb(0, 0, 0,0.2);
+
+} 
+.colpic> h3,h4{
+    position:relative;
+    top:290px;
+    left:10%;
+}
+.colpic h3{
+    font-family: 'Poppins', sans-serif;
+    font-size:18px;
+    text-shadow: 2px 2px 6px black;
+}
+.colpic h4{
+    font-family: 'Poppins', sans-serif;
+    font-size:14px;
+    text-shadow: 2px 2px 6px black;
+}
+.dho{
+    position: absolute;
+    top:20%;
+    left: 27%;
+    background: url(https://i.ibb.co/rwH8xjv/newrest.jpg) no-repeat;
+    background-size: cover;
+    background-position-y: 56%;
+}
+.theen{
+    position: absolute;
+    top:20%;
+    left: 51%;
+    background: url(https://i.ibb.co/9qYSz5Y/weektrend.jpg) no-repeat;
+    background-size: cover;
+    background-position-y: 93%;
+}
+.char{
+    position: absolute;
+    top:20%;
+    left: 75%;
+    background: url(https://i.ibb.co/2KWW8sJ/beer.jpg) no-repeat;
+    background-size: cover;
+    background-position-y: 44%;
+}
+
+footer{
+    position:relative;
+    width:80%;
+    float:left;
+    margin-left: 10%;
+    text-align:center;
+    
+}
+footer hr{
+    border-top:5px double rgba(255, 255, 255, 0.2);
+}
+footer h2{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color:#ffffff;
+}
+#emo{
+  font-size: 30px;;
+}
+footer h3{
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    color:#ffffff;
+}
+footer h3 span{
+    color:rgba(255, 255, 255, 0.7);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+footer h6{
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    color:#ffffff;
+}
